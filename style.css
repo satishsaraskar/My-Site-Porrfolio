@@ -30,7 +30,31 @@ body{
     margin: 5px;
 }
 
+.button1[type] {
+  background-color: #6f42c1; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button2[type] {
+  border: none;
+  background-color: #fff;
+  /* color: white; */
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
+.button2[type]:hover {
+  background-color: #6f42c1; /* Green */
+  color: black;
+}
 
 
  .line:hover:active {
@@ -38,6 +62,10 @@ body{
     opacity:0.8 ;
     margin: 0;
 } 
+
+ul > li {
+  font-size: 1rem;
+}
 
 
 
